@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Maitri Vasoya</title>
+  <meta name="title" content="Maitri Vasoya">
+  <meta name="description" content="This is a Personal Portfolio.">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./mylogo.png" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/font/font.css">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-1.png">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-2.png">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <span class="line"></span>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/mylogo.png" width="84" height="26" alt="logo">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#service" class="navbar-link" data-nav-link>Projects and Work Experience</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      
+
+      <button class="nav-open-btn btn:hover" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+      </button>
+
+      <div class="overlay" data-overlay data-nav-toggler></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <div class="hero text-center" id="home">
+        <div class="container">
+
+          <div class="banner-outline has-after">
+
+            <div class="hero-banner img-holder has-after" style="--width: 500; --height: 680;" data-tilt>
+              <img src="./assets/images/myimage.jpg" width="500" height="680" alt="Drew Hays" class="img-cover">
+            </div>
+
+            <span class="span title">Maitri Vasoya</span>
+
+          </div>
+
+          <div class="hero-content">
+
+            <h1 class="h1 title">Thanks for visiting! Clearly, you have excellent taste!</h1>
+
+            <form action="./Resume.pdf" method="post">
+            <button type="submit" class="btn btn:hover">
+              <span class="span">Download CV</span>
+
+              <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
+            </button>
+            </form>
+
+          </div>
+
+          <img src="./assets/images/hero-shape-1.png" width="559" height="232" alt="shape" class="shape shape-1">
+
+          <img src="./assets/images/hero-shape-2.png" width="1358" height="497" alt="shape" class="shape shape-2">
+
+        </div>
+      </div>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="service text-center" aria-label="my services" id="service">
+        <div class="container">
+
+          <ul class="service-list">
+
+            <li class="service-item">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/zoom2.jpeg" width="80" height="80" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="card-title">
+                  <a href="#">
+                    Zoom <br>
+                    Clone
+                  </a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/website.jpeg" width="80" height="80" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="card-title">
+                  <a href="#">
+                    Personal <br>
+                    Website
+                  </a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/Ocean.jpeg" width="80" height="80" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="card-title">
+                  <a href="#">
+                    Ocean Currents <br>
+                    Tracking
+                  </a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/NHL.jpeg" width="80" height="80" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="card-title">
+                  <a href="#">
+                    NHL <br>
+                    Statistics
+                  </a>
+                </h3>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" aria-label="about-me" id="about">
+        <div class="container">
+
+          <div class="tab-container">
+
+            <ul class="tab-btn-list">
+
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6 active" data-tab-btn="about">About Me</button>
+              </li>
+
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6" data-tab-btn="skillset">Skillset</button>
+              </li>
+
+            </ul>
+
+            <div class="tab-content active" data-tab-content="about">
+              <div class="grid-list">
+
+                <figure class="about-banner img-holder" style="--width: ; --height: ;" data-tilt>
+                  <img src="./assets/images/lang.jpeg" width="570" height="420" loading="lazy" alt="about banner"
+                    class="img-cover">
+                </figure>
+
+                <div class="about-content">
+
+                  <h2 class="h4 title section-title">
+                    Aspiring Fullstack Developer
+                  </h2>
+
+                  <p class="section-text">
+                    The journey of a thousand lines of code begins with a single keystroke.
+                  </p>
+
+                  <ul class="about-list">
+
+                    <li class="about-item">
+                      <p class="list-title">Name</p>
+
+                      <span class="span title h5">Maitri Vasoya</span>
+                    </li>
+
+                    <li class="about-item">
+                      <p class="list-title">Phone Number</p>
+
+                      <span class="span title h5">(782) 882-1845</span>
+                    </li>
+
+                    <li class="about-item">
+                      <p class="list-title">Email Address</p>
+
+                      <span class="span title h5">1maitriasoya@gmail.com</span>
+                    </li>
+
+                    <li class="about-item">
+                      <p class="list-title">Social Network</p>
+
+                      <div class="social-list">
+
+                        <a href="https://www.linkedin.com/in/maitri-vasoya-55482b23a/" class="social-link h6" title="Linkedin"><img src="./assets/images/linkedin" class="linkedin" height="40px" width="40px"></a>
+                        <a href="mailto:1maitriasoya@gmail.com" class="social-link h6" title="Behance"><img src="./assets/images/gmail.jpeg" class="gmail" height="40px" width="40px"></a>
+
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </div>
+
+            <div class="tab-content" data-tab-content="skillset">
+              <div class="grid-list">
+
+                <div class="skill-content">
+
+                  
+
+                  <ul class="skill-list">
+
+                    <li>
+                      <div class="skill-wrapper">
+                        <span class="span">Website Development</span>
+
+                        <span class="value">90%</span>
+                      </div>
+
+                      <div class="progress-bar">
+                        <div class="progress-fill" style="width: 90%"></div>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="skill-wrapper">
+                        <span class="span">Java</span>
+
+                        <span class="value">95%</span>
+                      </div>
+
+                      <div class="progress-bar">
+                        <div class="progress-fill" style="width: 95%"></div>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="skill-wrapper">
+                        <span class="span">Database Development</span>
+
+                        <span class="value">80%</span>
+                      </div>
+
+                      <div class="progress-bar">
+                        <div class="progress-fill" style="width: 80%"></div>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="skill-wrapper">
+                        <span class="span">Python</span>
+
+                        <span class="value">75%</span>
+                      </div>
+
+                      <div class="progress-bar">
+                        <div class="progress-fill" style="width: 75%"></div>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="skill-wrapper">
+                        <span class="span">C</span>
+
+                        <span class="value">75%</span>
+                      </div>
+
+                      <div class="progress-bar">
+                        <div class="progress-fill" style="width: 75%"></div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="skill-wrapper">
+                        <span class="span">C++</span>
+
+                        <span class="value">85%</span>
+                      </div>
+
+                      <div class="progress-bar">
+                        <div class="progress-fill" style="width: 85%"></div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="skill-wrapper">
+                        <span class="span">Microsoft Tools</span>
+
+                        <span class="value">95%</span>
+                      </div>
+
+                      <div class="progress-bar">
+                        <div class="progress-fill" style="width: 95%"></div>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <figure class="skill-banner img-holder" style="--width: 570; --height: 420;" data-tilt>
+                  <img src="./assets/images/programmer.jpeg" width="570" height="420" loading="lazy" alt="skill banner"
+                    class="img-cover">
+                </figure>
+
+              </div>
+            </div>
+
+            <div class="tab-content" data-tab-content="interview">
+              <div class="grid-list">
+
+                <div class="interview-card img-holder" style="--width: 376; --height: 420;" data-tilt>
+                  <img src="./assets/images/interview-1.jpg" width="376" height="420" loading="lazy" alt="interview 1"
+                    class="img-cover">
+
+                  <button class="btn btn:hover">Play</button>
+                </div>
+
+                <div class="interview-card img-holder" style="--width: 376; --height: 420;" data-tilt>
+                  <img src="./assets/images/interview-2.jpg" width="376" height="420" loading="lazy" alt="interview 2"
+                    class="img-cover">
+
+                  <button class="btn btn:hover">Play</button>
+                </div>
+
+                <div class="interview-card img-holder" style="--width: 376; --height: 420;" data-tilt>
+                  <img src="./assets/images/interview-3.jpg" width="376" height="420" loading="lazy" alt="interview 3"
+                    class="img-cover">
+
+                  <button class="btn btn:hover">Play</button>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="tab-content" data-tab-content="awward">
+
+              <h3 class="h4 title section-title">
+                We’re a team of creatives who are excited about unique ideas and help IT-tech companies to make identity
+                by crafting UI/UX.
+              </h3>
+
+              <ul class="grid-list">
+
+                <li>
+                  <div class="award-card">
+                    <figure class="card-banner img-holder" style="--width: 534; --height: 383;" data-tilt>
+                      <img src="./assets/images/awward-1.jpg" width="534" height="383" loading="lazy" alt="certificate"
+                        class="img-cover">
+                    </figure>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="award-card">
+                    <figure class="card-banner img-holder" style="--width: 534; --height: 383;" data-tilt>
+                      <img src="./assets/images/awward-2.jpg" width="534" height="383" loading="lazy" alt="certificate"
+                        class="img-cover">
+                    </figure>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="award-card">
+                    <figure class="card-banner img-holder" style="--width: 534; --height: 383;" data-tilt>
+                      <img src="./assets/images/awward-3.jpg" width="534" height="383" loading="lazy" alt="certificate"
+                        class="img-cover">
+                    </figure>
+                  </div>
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="tab-content" data-tab-content="exhibition">
+              <ul class="grid-list">
+
+                <li>
+                  <div class="exhibition-card">
+
+                    <figure class="card-banner img-holder" style="--width: 376; --height: 200;" data-tilt>
+                      <img src="./assets/images/exhibition-1.jpg" width="376" height="200" loading="lazy" alt="image"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="card-icon">
+                      <ion-icon name="image-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="exhibition-card">
+
+                    <figure class="card-banner img-holder" style="--width: 376; --height: 200;" data-tilt>
+                      <img src="./assets/images/exhibition-2.jpg" width="376" height="200" loading="lazy" alt="video"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="card-icon">
+                      <ion-icon name="logo-youtube" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="exhibition-card">
+
+                    <figure class="card-banner img-holder" style="--width: 376; --height: 200;" data-tilt>
+                      <img src="./assets/images/exhibition-3.jpg" width="376" height="200" loading="lazy" alt="music"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="card-icon">
+                      <ion-icon name="logo-soundcloud" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="exhibition-card">
+
+                    <figure class="card-banner img-holder" style="--width: 376; --height: 200;" data-tilt>
+                      <img src="./assets/images/exhibition-4.jpg" width="376" height="200" loading="lazy" alt="image"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="card-icon">
+                      <ion-icon name="image-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="exhibition-card">
+
+                    <figure class="card-banner img-holder" style="--width: 376; --height: 200;" data-tilt>
+                      <img src="./assets/images/exhibition-5.jpg" width="376" height="200" loading="lazy" alt="image"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="card-icon">
+                      <ion-icon name="image-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="exhibition-card">
+
+                    <figure class="card-banner img-holder" style="--width: 376; --height: 200;" data-tilt>
+                      <img src="./assets/images/exhibition-6.jpg" width="376" height="200" loading="lazy" alt="image"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="card-icon">
+                      <ion-icon name="image-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="section cta" aria-label="work with me">
+        <div class="container">
+
+          <h2 class="title h2 section-title text-center">
+            Work Experience
+          </h2>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROJECTS
+      -->
+
+      <section class="section project" aria-label="my latest projects" id="project">
+
+        <ul class="slider-list">
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/rentguruz.png" width="1000" height="763" loading="lazy"
+                  class="img-cover">
+
+                <a href="#" class="btn btn:hover">
+                  <span class="span">MAY 2023 - JUL 2023</span>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">Software Development Intern</p>
+
+                <h3 class="title h3">
+                  <a href="#" class="card-title">RentGuruz</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/zara.jpeg" width="1000" height="763" loading="lazy"
+                  class="img-cover">
+
+                <a href="#" class="btn btn:hover">
+                  <span class="span">SEPT 2022 - MAY 2024</span>
+
+                  
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">Sales Representative</p>
+
+                <h3 class="title h3">
+                  <a href="#" class="card-title">ZARA</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/marriott.jpeg" width="1000" height="763" loading="lazy"
+                  class="img-cover">
+
+                <a href="#" class="btn btn:hover">
+                  <span class="span">APR 2023 - SEPT 2023</span>
+
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">Guest Event Expert</p>
+
+                <h3 class="title h3">
+                  <a href="#" class="card-title">Marriott International</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/wits.jpeg" width="1000" height="763" loading="lazy"
+                  class="img-cover">
+
+                <a href="#" class="btn btn:hover">
+                  <span class="span">SEPT 2022 - PRESENT</span>
+
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">Member of WITS</p>
+
+                <h3 class="title h3">
+                  <a href="#" class="card-title">Women In Technology in STEM</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+        </ul>
+
+      </section>
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="section contact" aria-label="contact me" id="contact">
+        <div class="container">
+
+          <h2 class="title h2 section-title">Get In Touch</h2>
+
+          <div class="contact-content">
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2910539.8152542785!2d-64.59096100955682!3d44.56993815463249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b4513bbd026ebc5%3A0xcd90670d5a4a675b!2sHalifax%20Regional%20Municipality%2C%20NS!5e0!3m2!1sen!2sca!4v1715967615776!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <ul class="contact-list">
+
+              <li class="contact-item">
+
+                <div class="item-icon">
+                  <img src="./assets/images/contact-icon-1.png" width="50" height="50" loading="lazy"
+                    alt="contact icon">
+                </div>
+
+                <div>
+                  <span class="title h6">(782) 882-1845</span>
+                </div>
+
+              </li>
+
+              <li class="contact-item">
+
+                <div class="item-icon">
+                  <img src="./assets/images/contact-icon-2.png" width="50" height="50" loading="lazy"
+                    alt="contact icon">
+                </div>
+
+                <div>
+                  <address class="title h6">
+                    1991 Brunswick Street,
+                    Halifax, NS B3J2G9
+                  </address>
+                </div>
+
+              </li>
+
+              <li class="contact-item">
+
+                <div class="item-icon">
+                  <img src="./assets/images/contact-icon-3.png" width="50" height="50" loading="lazy"
+                    alt="contact icon">
+                </div>
+
+                <div>
+                  <span class="title h6">1maitriasoya@gmail.com</span>
+                </div>
+
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  
+
+
+
+
+
+  <!-- 
+    - #CUSTOM CURSOR
+  -->
+
+  <div class="cursor-dot" data-cursor></div>
+  <div class="cursor-outline" data-cursor></div>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
